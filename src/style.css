@@ -1,11 +1,11 @@
 html {
   --section-background-color: linear-gradient(to bottom left,
-      rgb(1, 1, 74), rgb(18, 21, 61));
+      rgb(44, 52, 165), rgb(5, 5, 147));
 
   --image-gradient: linear-gradient(to bottom left,
-      rgb(1, 1, 74), rgb(18, 21, 61));
+      rgb(44, 52, 165), rgb(5, 5, 147));
 
-  --imp-text-color: #0022ff;
+  --imp-text-color: #00d2ff;
 }
 
 .purple {
@@ -138,7 +138,7 @@ button:focus {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #181a27 !important;
+    background-color: #0e1d80 !important;
   }
 
   .navbar-nav .nav-item a::after {
@@ -291,7 +291,7 @@ button:focus {
 }
 
 .main-name {
-  color: #1357df;
+  color: #00d2ff;
 }
 
 .Typewriter__wrapper {
@@ -423,7 +423,7 @@ button:focus {
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(23, 8, 79);
+  background-color: rgb(26 36 178);
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important;
