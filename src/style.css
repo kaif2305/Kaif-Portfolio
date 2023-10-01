@@ -91,7 +91,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #5650f4 !important;
+  background-color: #5F9DF8 !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -315,6 +315,12 @@ button:focus {
   .Typewriter__cursor {
     display: none !important;
   }
+
+  .home-content {
+    padding: 2rem 0 2rem !important;
+    color: whitesmoke;
+    text-align: left;
+  }
 }
 
 .myAvtar {
@@ -322,11 +328,14 @@ button:focus {
   padding-top: 4em !important;
 }
 
+
+
 @media (max-width: 767px) {
   .myAvtar {
     padding-top: 2em !important;
     padding-bottom: 2em !important;
   }
+
 }
 
 .home-about-section {
@@ -436,6 +445,12 @@ button:focus {
 
   .footer-body {
     text-align: center !important;
+  }
+
+  .home-about-section {
+    position: relative;
+    padding-bottom: 70px !important;
+    padding-top: 0px !important;
   }
 }
 
