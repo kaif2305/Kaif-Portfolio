@@ -1,15 +1,14 @@
 html {
-  --section-background-color: linear-gradient(to bottom left,
-      rgb(44, 52, 165), rgb(5, 5, 147));
+  /* --section-background-color: linear-gradient(-140deg, #52e5e7, rgba(62, 65, 255, 0.701), #130cb7);
 
-  --image-gradient: linear-gradient(to bottom left,
-      rgb(44, 52, 165), rgb(5, 5, 147));
+  --image-gradient: linear-gradient(-140deg, #dfecf6, rgba(144, 177, 250, .43137254901960786), rgba(108, 209, 252, .5490196078431373)); */
 
-  --imp-text-color: #00d2ff;
+  --imp-text-color: #0080ff;
 }
 
 .purple {
-  color: var(--imp-text-color) !important;
+  color: #0087ff !important;
+  text-shadow: 1px 2px 2px rgb(0 0 0 / 34%);
 }
 
 button:focus {
@@ -26,7 +25,7 @@ button:focus {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: #0f1557;
+  background-color: #1c0da3;
   background-image: url(./Assets/pre.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -56,13 +55,13 @@ button:focus {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(35, 9, 207, 0.959);
+  background: rgba(194, 205, 250, 0.959);
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(0, 38, 255, 0.911);
+  background: rgba(104, 133, 248, 0.911);
   border-radius: 12px;
 }
 
@@ -91,7 +90,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #5F9DF8 !important;
+  background-color: #ffffff !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -138,7 +137,7 @@ button:focus {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #0e1d80 !important;
+    background-color: #0b004f !important;
   }
 
   .navbar-nav .nav-item a::after {
@@ -190,7 +189,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #5b68f5;
+  background: #ffffff;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -291,7 +290,7 @@ button:focus {
 }
 
 .main-name {
-  color: #00d2ff;
+  color: #0087ff;
 }
 
 .Typewriter__wrapper {
@@ -423,7 +422,7 @@ button:focus {
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(26 36 178);
+  background-color: rgb(0 13 116);
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important;
@@ -490,18 +489,19 @@ button:focus {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(54, 53, 136, 0.459) !important;
+  box-shadow: 0 4px 5px 3px rgba(83, 90, 171, 0) !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
+  border-color: rgba(255, 255, 255, 0.699) !important;
 }
 
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(48, 13, 190, 0.561) !important;
+  box-shadow: 0 4px 4px 5px rgba(0, 19, 160, 0.561) !important;
 }
 
 .blog-card {
@@ -537,7 +537,7 @@ button:focus {
 
 .card-img-top {
   padding: 20px !important;
-  opacity: 0.8 !important;
+  opacity: 1 !important;
   border-radius: 10px !important;
 }
 
@@ -549,13 +549,18 @@ button:focus {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #1308a4 !important;
-  border-color: #4000ff !important;
+  /* background-color: #0c1e94 !important; */
+  border-color: #0009b5e5 !important;
+
+  background-color: rgb(0 13 116) !important;
+  transition: all 0.3s ease-out 0s !important;
+  box-shadow: 0px 10px 10px 0px rgba(39, 27, 99, 0.171) !important;
+  backdrop-filter: blur(15px) !important;
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #2320c5d7 !important;
+  background-color: #0906c7d7 !important;
   border-color: #2320c5d7 !important;
 }
 
@@ -588,12 +593,12 @@ button:focus {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid rgba(4, 0, 255, 0.637) !important;
+  border: 1.7px solid rgb(255, 255, 255) !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
   display: table !important;
-  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  box-shadow: 4px 5px 4px 3px rgb(0 0 0 / 23%) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
@@ -607,7 +612,7 @@ button:focus {
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  border: 2.2px solid rgba(51, 0, 255, 0.883) !important;
+  border: 2.2px solid rgba(47, 0, 255, 0.883) !important;
 }
 
 .tech-icon-images {
