@@ -10,6 +10,8 @@ import data from "../../Assets/Projects/data.png";
 import HNP from "../../Assets/Projects/hnp.png";
 import CFP from "../../Assets/Projects/cfp.png";
 import NID from "../../Assets/Projects/nid.png";
+import MP from "../../Assets/Projects/MP.png";
+import netflix from "../../Assets/Projects/netflix.png";
 
 function Projects() {
   return (
@@ -95,11 +97,34 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={MP}
+              isBlog={false}
+              title="Mental Poker"
+              description="Mental poker cryptography enables secure card game play over untrusted networks. Players use cryptographic protocols to shuffle and deal virtual cards without revealing them to others, ensuring fairness and preventing cheating. By employing advanced algorithms, mental poker guarantees privacy and integrity, making online card games secure and trustworthy for players, even in remote settings."
+              ghLink="https://github.com/kaif2305/Honeypot-Deception"
+
+            />
+          </Col>
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={leaf}
               isBlog={false}
               title="Conference Website"
               description="Technoscape is a global conference website of VIT college which is devloped by me. It's built with React and Node.js, offering an interactive and efficient platform for international conferences. Leveraging these technologies, it ensures a seamless user experience, facilitating information dissemination and engagement for attendees and organizers worldwide."
               ghLink="https://github.com/kaif2305/ts_new"
+
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={netflix}
+              isBlog={false}
+              title="Netflix Clone Tailwind"
+              description="I recreated Netflix's layout with Tailwind CSS and integrated APIs to fetch movie data and trailers. Using Tailwind ensured a visually appealing design, while API calls dynamically loaded movie details and trailers, enhancing user engagement. This project showcased my expertise in front-end development, API integration, and creating an interactive streaming platform."
+              ghLink="https://github.com/kaif2305/Netflix-Clone-Tailwind"
 
             />
           </Col>
@@ -128,30 +153,6 @@ function Projects() {
             />
           </Col>
 
-
-
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-            // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-            // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col> */}
         </Row>
       </Container>
     </Container>
