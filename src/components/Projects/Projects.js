@@ -12,6 +12,7 @@ import CFP from "../../Assets/Projects/cfp.png";
 import NID from "../../Assets/Projects/nid.png";
 import MP from "../../Assets/Projects/MP.png";
 import netflix from "../../Assets/Projects/netflix.png";
+import rsa from "../../Assets/Projects/rsa.png";
 
 function Projects() {
   return (
@@ -102,6 +103,17 @@ function Projects() {
               title="Mental Poker"
               description="Mental poker cryptography enables secure card game play over untrusted networks. Players use cryptographic protocols to shuffle and deal virtual cards without revealing them to others, ensuring fairness and preventing cheating. By employing advanced algorithms, mental poker guarantees privacy and integrity, making online card games secure and trustworthy for players, even in remote settings."
               ghLink="https://github.com/kaif2305/Honeypot-Deception"
+
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={rsa}
+              isBlog={false}
+              title="Chat Client Using RSA and AES"
+              description="A chat client employs RSA for secure key exchange and AES for symmetric encryption. It incorporates a dynamic SBox, which changes based on exchanged keys, enhancing encryption strength. RSA ensures secure key sharing, while AES handles efficient data encryption, and the dynamic SBox boosts security by constantly adapting, fortifying the overall communication security."
+              ghLink="https://github.com/kaif2305/Seured-chat-using-RSA-and-AES"
 
             />
           </Col>
